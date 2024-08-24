@@ -13,7 +13,7 @@ function App() {
   });
 
   return (
-    <div>
+    <div className="flex w-full space-x-5">
       {words.map((word, index) => (
         <MemoizedWords
           key={index}
