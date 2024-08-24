@@ -18,7 +18,7 @@ function App() {
         <MemoizedWords
           key={index}
           word={word}
-          isActive={index == highlightIndex}
+          isActive={index === highlightIndex}
         />
       ))}
     </div>
